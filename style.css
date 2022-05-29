@@ -1,5 +1,5 @@
 /* Basic Style */
-.container {
+.body {
   background-color: #f8f8f8;
   color: #333;
   font-family: Lato, sans-serif;
@@ -28,7 +28,7 @@
 
 }
 
-.item_add {
+.main {
   display: block;
   width: 500px;
   margin: 0 auto 0;
@@ -41,7 +41,7 @@
   flex-grow: 1;
 }
 
-.task-wrapper {
+.section-add__task {
   display: flex;
 }
 
@@ -108,7 +108,7 @@
   margin: 0 0 20px;
 }
 
-#task_new {
+.section-add .task__input_text {
   width: 318px;
 }
 
@@ -158,8 +158,8 @@
 }
 
 /* Edit Task */
-.todo-tasks .task__input_text, 
-.copmpleted-tasks .task__input_text {
+.section-todo__tasks .task__input_text, 
+.section-copmpleted__tasks .task__input_text {
   display: none;
 }
 
